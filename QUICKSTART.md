@@ -139,14 +139,20 @@ python camera_service.py --model model.h5 --mode camera --camera 1
 python train.py --model resnet --epochs 16
 ```
 
-2. **Customize training**: Edit `src/config.py` to change hyperparameters
-
-3. **Deploy**: Use the API service to integrate with your application
-
-4. **Improve accuracy**: 
-   - Collect more training data
+2. **Achieve higher accuracy**: The baseline models provide ~71-75% accuracy. To reach 85-90%+:
+   - Integrate transfer learning models (EfficientNet, ResNet50, Vision Transformers)
+   - Use larger image sizes (224x224)
    - Implement ensemble methods
-   - Fine-tune hyperparameters
+   - See [Development section in README](README.md#development) for examples
+
+3. **Customize training**: Edit `src/config.py` to change hyperparameters
+
+4. **Deploy**: Use the API service to integrate with your application
+
+5. **Explore advanced features**: 
+   - Add attention mechanisms
+   - Implement Grad-CAM for explainability
+   - Try class balancing techniques
 
 ## Getting Help
 
