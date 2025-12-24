@@ -1,0 +1,21 @@
+# Core dependencies
+tensorflow
+numpy
+pandas
+scikit-learn
+Pillow
+
+# Visualization
+matplotlib
+seaborn
+
+# Camera integration
+opencv-python
+
+# API and serving
+flask
+flask-cors
+
+# Utilities
+python-dotenv
+tqdm
