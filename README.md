@@ -27,6 +27,10 @@ The system achieves approximately 75% accuracy on the test set using a Sequentia
 - **REST API**: Flask-based API for integration with other applications
 - **Command-Line Tools**: Easy-to-use scripts for training, evaluation, and inference
 
+## System Design Architecture
+
+![Architecture](./assets/Architecture.png)
+
 ## Documentation
 
 - **[Quick Start Guide](QUICKSTART.md)** - Get up and running in minutes with step-by-step instructions
