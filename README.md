@@ -1,5 +1,7 @@
 # Skin Cancer Detection System
 
+![Header](./assets/Header.png)
+
 A production-grade deep learning system for automated skin lesion classification using the HAM10000 dataset. This system provides training, evaluation, and real-time inference capabilities for detecting seven types of skin lesions.
 
 ## Overview

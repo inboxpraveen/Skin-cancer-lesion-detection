@@ -17,27 +17,7 @@
 
 The system follows a modular architecture with clear separation of concerns:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     User Interface Layer                     │
-│  (CLI Tools, Camera Service, REST API)                      │
-└────────────────────┬────────────────────────────────────────┘
-                     │
-┌────────────────────┴────────────────────────────────────────┐
-│                   Application Layer                          │
-│  (Training, Evaluation, Inference Logic)                    │
-└────────────────────┬────────────────────────────────────────┘
-                     │
-┌────────────────────┴────────────────────────────────────────┐
-│                     Core Layer                               │
-│  (Models, Data Processing, Configuration)                   │
-└─────────────────────────────────────────────────────────────┘
-                     │
-┌────────────────────┴────────────────────────────────────────┐
-│                  Infrastructure Layer                        │
-│  (TensorFlow/Keras, OpenCV, Flask)                          │
-└─────────────────────────────────────────────────────────────┘
-```
+![Architecture](./assets/Architecture.png)
 
 ### Design Principles
 
