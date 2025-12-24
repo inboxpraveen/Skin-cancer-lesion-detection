@@ -25,6 +25,18 @@ The system achieves approximately 75% accuracy on the test set using a Sequentia
 - **REST API**: Flask-based API for integration with other applications
 - **Command-Line Tools**: Easy-to-use scripts for training, evaluation, and inference
 
+## Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get up and running in minutes with step-by-step instructions
+- **[Technical Documentation](PROJECT_DOCUMENTATION.md)** - Comprehensive technical details including:
+  - System architecture and design principles
+  - Detailed module documentation
+  - Model architecture deep-dive
+  - Training and evaluation processes
+  - API specifications
+  - Performance optimization tips
+  - Troubleshooting guide
+
 ## Project Structure
 
 ```
@@ -45,6 +57,7 @@ Skin-Cancer-Detection/
 ├── results/                   # Evaluation results
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
+├── QUICKSTART.md              # Quick start guide
 └── PROJECT_DOCUMENTATION.md   # Detailed technical documentation
 ```
 
@@ -52,7 +65,7 @@ Skin-Cancer-Detection/
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python 3.10 or higher
 - pip package manager
 - (Optional) CUDA-capable GPU for faster training
 
